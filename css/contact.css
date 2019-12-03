@@ -20,21 +20,63 @@ body {
     width: 100vw;
 
     grid-template-columns: .5fr 1fr 1fr .5fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .header {
     align-items: flex-end;
     grid-column: 1/2;
-    grid-row: 1/4;
+    grid-row: 1/5;
 }
 
 .calltoaction {
     grid-column: 2/4;
     grid-row: 1/2;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    font-size: 2.1em;
+    letter-spacing: 10px;
 }
 
 .contact {
     grid-column: 2/4;
     grid-row: 2/4;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+    text-align: center;
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: color .2s;
+}
+
+a:hover {
+    color: #896a67;
+}
+
+.contact i {
+    font-size: 250%;
+}
+
+
+.signature {
+    grid-column: 2/4;
+    grid-row: 4/5;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+img {
+    width: 40%;
 }
