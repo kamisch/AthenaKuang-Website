@@ -1,3 +1,26 @@
 * {
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: url("../images/aboutme.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+
+}
+
+.grid-layout {
+    display: grid;
+
+    height: 100vh;
+    width: 100vw;
+
+    grid-template-columns: .5fr 1fr 1fr .5fr;
     
+    grid-template-areas: "header content image menu";
+
 }
