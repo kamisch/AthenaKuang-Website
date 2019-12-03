@@ -1,0 +1,39 @@
+nav{
+    position: fixed;
+    z-index: 1;
+    top:10%;
+    right:5%;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f100;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(131, 130, 130);
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    color: black;
+  }
+
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header p {
+    font-size: 5em;
+    letter-spacing: 20px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}

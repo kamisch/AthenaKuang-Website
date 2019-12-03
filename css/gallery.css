@@ -1,0 +1,34 @@
+* {
+    padding: 0px;
+    margin:0px;
+}
+body{
+    background: url(images/gallery_bg.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#gallery_main{
+    margin: -20vw auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    width:50vw;
+    height: 50vw;
+    z-index: 2;
+    grid-gap: 20px;
+
+  }
+  .grid-item {
+    background:  url("https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+

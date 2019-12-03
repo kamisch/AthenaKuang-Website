@@ -1,0 +1,47 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+body{
+    background: url(images/background.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#profile{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); /* IE 9 */
+    -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */	
+}
+#profile img{
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+}
+
+  #welcome_msg{
+    position: fixed;
+    z-index: 1;
+    bottom:20%;
+    right:15%;
+    width: 300px;
+    height: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .welcome_head{
+    font-size: 70px;
+
+  }
+  .welcome_body{
+    font-size: 30px;
+
+  }
