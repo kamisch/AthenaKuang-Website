@@ -72,11 +72,10 @@ ul {
     }
   }
   
-
-  
+  /* Source code from https://css-tricks.com/add-page-transitions-css-smoothstate-js/ */
     /** Basic styles for an animated element */
     .scene_element {
-      animation-duration: 0.7s;
+      animation-duration: 1s;
       transition-timing-function: ease-in;
       animation-fill-mode: both;
   
