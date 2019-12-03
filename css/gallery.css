@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin:0px;
+        /* overflow-x: hidden; */
 }
 body{
     background: url("../images/gallery_bg.png") no-repeat center center fixed; 
