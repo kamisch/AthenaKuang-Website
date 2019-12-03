@@ -20,7 +20,21 @@ body {
     width: 100vw;
 
     grid-template-columns: .5fr 1fr 1fr .5fr;
-    
-    grid-template-areas: "header content image menu";
+    grid-template-rows: 1fr 1fr 1fr;
+}
 
+.header {
+    align-items: flex-end;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.calltoaction {
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+.contact {
+    grid-column: 2/4;
+    grid-row: 2/4;
 }
