@@ -22,14 +22,25 @@ body{
 
   }
   .grid-item {
-    background:  url("https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg") no-repeat center center fixed; 
+    /* background:  url("https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
+    
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    border-radius: 25px;
+
+    -moz-box-shadow: 0 5px 10px rgb(0, 0, 0);
+    -webkit-box-shadow: 0 5px 10px rgb(0, 0, 0);
+    box-shadow: 0 5px 10px rgb(0, 0, 0);
+
+    transition: transform .2s; /* Animation */
+  }
+  .grid-item:hover{
+    transform: scale(1.2);
   }
 
