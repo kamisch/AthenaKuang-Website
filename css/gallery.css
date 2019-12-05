@@ -9,6 +9,8 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow: hidden;
+
 }
 #gallery_main{
     margin: -20vw auto;
@@ -43,4 +45,36 @@ body{
   .grid-item:hover{
     transform: scale(1.2);
   }
+.frame{
+    z-index: 5;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.356);
+}
 
+.window{
+    width: 70vw;
+    height: 70vh;
+    background-color: white;
+}
+
+.window > *{
+    padding:10px;
+}
+
+#cancel{
+    background-color: red;
+    color:white;
+    position: absolute;
+    top:5vw;
+    right:5vw;
+    width:40px;
+    height:40px;
+}
