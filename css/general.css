@@ -3,10 +3,12 @@ nav{
     z-index: 1;
     top:10%;
     right:5%;
-    font-size: 30px;
+    font-size: 24px;
     font-family: 'Montserrat', sans-serif;
 }
 ul {
+    display: flex;
+    flex-direction: column;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -19,6 +21,8 @@ ul {
     color: rgb(131, 130, 130);
     padding: 8px 16px;
     text-decoration: none;
+    text-transform: uppercase;
+
   }
   
   /* Change the link color on hover */
@@ -30,6 +34,8 @@ ul {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    text-transform: uppercase;
+
 }
 .header p {
     font-size: 5em;
@@ -95,4 +101,36 @@ ul {
     .scene_element--fadeinright {
       animation-name: fadeInRight;
     }
-  
+    @media only screen and (max-width: 1160px) {
+        nav{
+            width:100vw;
+            /* border:1px red solid; */
+            top:0px;
+            left:0px;
+        }
+        ul {
+            flex-direction: row;
+            /* border:1px black solid; */
+            width: 90vw;
+            margin: 5px auto;
+        }
+        li {
+            margin: 0px auto;
+            color:black;
+            background-color:white;
+            border-radius:20px;
+            border:1px black solid;
+        }
+        /* .header{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top:50px;
+        }
+        .header p {
+            font-size: 5em;
+            letter-spacing: 10px;
+            writing-mode:horizontal-tb;
+            transform: rotate(0deg);
+        } */
+    }
